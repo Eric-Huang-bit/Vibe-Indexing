@@ -55,7 +55,6 @@ dmypy.json
 .pyre/
 
 # Editors
-.vscode/
 .idea/
 *.swp
 *.swo
