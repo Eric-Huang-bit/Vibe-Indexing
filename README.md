@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Vibe-Indexing provides a clean, extensible pipeline to:
+Audio Description provides a clean, extensible pipeline to:
 
 - Extract frames from video clips
 - Generate natural-language audio descriptions via multimodal APIs (e.g., Qwen VL, GPT-4o)
@@ -24,15 +24,15 @@ Vibe-Indexing provides a clean, extensible pipeline to:
 ### Install
 
 ```bash
-git clone https://github.com/Eric-Huang-bit/Vibe-Indexing.git
-cd Vibe-Indexing
+git clone https://github.com/Eric-Huang-bit/Audio-Description.git
+cd Audio-Description
 pip install -e ".[dev]"
 ```
 
 ### Run the CLI
 
 ```bash
-python -m vibe_indexing --help
+python -m audio_description --help
 ```
 
 ---
@@ -70,9 +70,9 @@ ruff check --fix .
 ## Project Structure
 
 ```
-Vibe-Indexing/
+Audio-Description/
 ├── src/
-│   └── vibe_indexing/      # Main package
+│   └── audio_description/      # Main package
 │       ├── __init__.py
 │       └── __main__.py     # CLI entrypoint
 ├── tests/                  # Test suite

@@ -1,22 +1,22 @@
-"""CLI entrypoint for vibe-indexing.
+"""CLI entrypoint for audio-description.
 
 Run with:
-    python -m vibe_indexing
+    python -m audio_description
     # or, after pip install:
-    vibe-indexing
+    audio-description
 """
 
 from __future__ import annotations
 
 import sys
 
-from vibe_indexing import __version__
+from audio_description import __version__
 
 _HELP = f"""\
-vibe-indexing {__version__}
+audio-description {__version__}
 
 Usage:
-  python -m vibe_indexing [--help] [--version]
+  python -m audio_description [--help] [--version]
 
 Commands (coming soon):
   describe    Generate audio descriptions for a video clip
@@ -26,12 +26,12 @@ Options:
   -h, --help      Show this help message and exit
   --version       Print version and exit
 
-Run 'python -m vibe_indexing <command> --help' for command-specific options.
+Run 'python -m audio_description <command> --help' for command-specific options.
 """
 
 
 def main(argv: list[str] | None = None) -> int:
-    """Entry point for the vibe-indexing CLI."""
+    """Entry point for the audio-description CLI."""
     args = argv if argv is not None else sys.argv[1:]
 
     if not args or "-h" in args or "--help" in args:
@@ -39,11 +39,11 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if "--version" in args:
-        print(f"vibe-indexing {__version__}")
+        print(f"audio-description {__version__}")
         return 0
 
     print(f"Unknown arguments: {args}", file=sys.stderr)
-    print("Run 'python -m vibe_indexing --help' for usage.", file=sys.stderr)
+    print("Run 'python -m audio_description --help' for usage.", file=sys.stderr)
     return 1
 
 

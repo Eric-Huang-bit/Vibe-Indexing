@@ -1,7 +1,7 @@
-"""Tests for the vibe_indexing CLI entrypoint."""
+"""Tests for the audio_description CLI entrypoint."""
 
-from vibe_indexing import __version__
-from vibe_indexing.__main__ import main
+from audio_description import __version__
+from audio_description.__main__ import main
 
 
 def test_help_exits_zero():

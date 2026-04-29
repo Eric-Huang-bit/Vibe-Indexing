@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "vibe-indexing: --help",
+      "name": "audio-description: --help",
       "type": "debugpy",
       "request": "launch",
-      "module": "vibe_indexing",
+      "module": "audio_description",
       "args": ["--help"],
       "justMyCode": true,
       "env": {

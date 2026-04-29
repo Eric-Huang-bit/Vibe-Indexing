@@ -1,4 +1,4 @@
-# Contributing to Vibe-Indexing
+# Contributing to Audio-Description
 
 Thank you for your interest in contributing! Below are guidelines to help you get started.
 
@@ -6,8 +6,8 @@ Thank you for your interest in contributing! Below are guidelines to help you ge
 
 1. Fork the repository and clone your fork:
    ```bash
-   git clone https://github.com/<your-username>/Vibe-Indexing.git
-   cd Vibe-Indexing
+   git clone https://github.com/<your-username>/Audio-Description.git
+   cd Audio-Description
    ```
 
 2. Install the development dependencies:
