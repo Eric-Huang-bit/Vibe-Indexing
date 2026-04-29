@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Vibe-Indexing provides a clean, extensible pipeline to:
+Audio Description provides a clean, extensible pipeline to:
 
 - Extract frames from video clips
 - Generate natural-language audio descriptions via multimodal APIs (e.g., Qwen VL, GPT-4o)
