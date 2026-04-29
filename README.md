@@ -1,6 +1,6 @@
-# Vibe-Indexing
+# Audio Description
 
-**Vibe-Indexing** is a Python toolkit for generating and indexing audio descriptions (AD) for video content, with support for film-grammar-aware analysis and multimodal LLM backends.
+**Audio Description** is a Python toolkit for generating and indexing audio descriptions (AD) for video content, with support for film-grammar-aware analysis and multimodal LLM backends.
 
 ---
 
