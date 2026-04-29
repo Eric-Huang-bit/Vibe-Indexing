@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vibe-indexing"
+name = "audio-description"
 version = "0.1.0"
 description = "Film-grammar-aware audio description generation and indexing toolkit"
 readme = "README.md"
@@ -28,7 +28,7 @@ dev = [
 ]
 
 [project.scripts]
-vibe-indexing = "vibe_indexing.__main__:main"
+audio-description = "audio_description.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
